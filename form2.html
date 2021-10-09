@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Form Design 2</title>
         <style>
             body{
@@ -28,8 +29,10 @@
             }
             .k_box1{
                 background-color: #fff;
-                text-align: center;
                 line-height: 50px;
+            }
+            .text_center{
+                text-align: center;
             }
             .k_anchor{
                 text-decoration: none;
@@ -57,13 +60,25 @@
             .link{
                 width: 50px;
                 height: 50px;
-                display: inline-block;
+                border: 2px solid #dfdfdf;
                 border-radius: 50px;
-                background-color: cornflowerblue;
                 position: absolute;
+                text-align: center;
+                line-height: 50px;
+                color:#333;
+                font-size: 2em;
+            }
+            .link1{
+                margin-left:130px;               
+            }
+            .link2{
+                margin-left:200px;
             }
             .k_anchor1{
                 margin-top: 10px !important;
+            }
+            .fab{
+                
             }
             /*.k_box2{
                 background-image:-webkit-linear-gradient(left,#ff464c,blue) !important;
@@ -77,17 +92,17 @@
         <div class="k_form2">
             <form class="k_formbox">
                 <div class="k_box1 k_formbox">
-                    <h1>Login From</h1>
-                    <div class="link">
-                        <a href="#" class="">a</a>
-                        <a href="#" class="">b</a>
+                    <h1 style="text-align: center;">Login From</h1>
+                    <div class="">
+                        <a href="#" class="link1 link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="link2 link"><i class="fab fa-twitter"></i></a>
                     </div>
-                    <a class="k_anchor" href="#">or use your account</a>
-                    <div>
+                    <a class="k_anchor text_center" href="#">or use your account</a>
+                    <div class="text_center">
                         <input type="email" name="email" placeholder="Email">
                         <input type="password" name="passord" placeholder="Password">
                     </div>
-                    <a class="k_anchor k_anchor1" style="font-size:1.2em; margin-top:30px;" href="#">Forgot your passord ?</a>
+                    <a class="k_anchor k_anchor1 text_center" style="font-size:1.2em;" href="#">Forgot your passord ?</a>
                     <button class="btn">LOGIN</button>
                 </div>
                 
