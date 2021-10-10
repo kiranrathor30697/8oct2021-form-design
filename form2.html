@@ -31,14 +31,19 @@
                 width:50%;
                 height:100%;
             }
-            .k_form2 > div:first-child{
+            .k_form2 > div:first-child{/*first-child operstor*/
                 background-color: #fff;
                 line-height:50px;
                 float: left;
             }
-            .k_form2 > div:last-child{
+            .k_form2 > div:last-child{/*last-child operator*/
                 float: right;
                 background-image:-webkit-linear-gradient(left,#ff464c,#ff416c);
+            }
+            .k_form2 > div:last-child *{/*universal operator*/
+               width: 70%;
+               margin: auto;
+               color:#fff;
             }
             .text_center{
                 text-align: center;
@@ -87,9 +92,6 @@
             .k_anchor1{
                 margin-top: 10px !important;
             }
-            .fab{
-                
-            }
             
             
         </style>
@@ -111,8 +113,8 @@
                     <button class="btn">LOG IN</button>
             </div>
             <div class="box">
-                <h1 style="margin-top:150px;">HTML CSS Login Form</h1>
-                <p>This login form is created using pure HTML and CSS. For social icons,FontAwesome is used.</p>
+                <h1 style="margin-top:120px;">HTML CSS Login Form</h1>
+                <p  style="margin-top:20px;">This login form is created using pure HTML and CSS. For social icons,FontAwesome is used.</p>
             </div>
         </div>
     </body>
