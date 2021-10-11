@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Webside</title>
+        <style>
+            .k_1{
+                width: 100px;
+                height: 100px;
+                background-color: blueviolet;
+            }
+            .k_2{
+                width: 100px;
+                height: 100px;
+                background-color: khaki;
+            }
+            .k_3{
+                width: 100px;
+                height: 100px;
+                background-color: lawngreen;
+            }
+            @media only screen and (max-width:400px) {
+                body{
+                    background-color:red;
+                }
+                    
+            }
+            @media only screen and (min-width:401px) {
+                body{
+                    background-color:blue;
+                }
+                .k_1{
+                    width: 400px;
+                    height: 400px;
+                    background-color: orange;
+                }
+                .k_2{
+                    display:none
+                }    
+            }
+            @media only screen and (max-width:500px) {
+                .k_3{
+                    background-color: lightseagreen;
+                    border-radius: 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="k_1">Kiran</div>
+        <div class="k_2">Kamlesh</div>
+        <div class="k_3">Rudransh</div>
+        <div class="k_4">Anjali</div>
+        <div class="k_5">Rameshchandra Ji</div>
+        <div class="k_6">Santosh Bai</div>
+        <div class="k_7">Shila Bai</div>
+        <div class="k_8">Vijay</div>
+        <div class="k_9">Sarita</div>
+        <div class="k_10">Harish</div>
+    </body>
+</html>
